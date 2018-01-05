@@ -276,7 +276,6 @@ class MicrophoneStream(object):
 if __name__ == '__main__':
 	rospy.init_node('dvrk_voice_control')
     	vr = VoiceRecognizer()
-	# TODO: uncomment this to use voice recog
-#    	vr.start_recognize()
-	vr.analyze_word("teleop enable")
-	time.sleep(10)
+    	vr.start_recognize()
+#	vr.analyze_word("teleop enable")
+#	time.sleep(10)
