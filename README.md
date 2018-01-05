@@ -12,6 +12,6 @@ To setup Google Cloud API:
 
 # dVRK
 The control of dVRK is based on ROS. To control dVRK using voice:
-"Power On" - power on the arms
-"Power Off" - power off the arms
-"Home" - home the arms
+1. "Power On" - power on the arms
+2. "Power Off" - power off the arms
+3. "Home" - home the arms
